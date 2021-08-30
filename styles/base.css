@@ -5,7 +5,7 @@
 @layer components {
 
     .skill {
-        @apply mx-4 list-disc border-t-2 border-gray-200 py-2 text-gray-800;
+        @apply mx-4 list-disc border-t-2 border-gray-200 p-2 text-gray-800;
     }
 
     .skill h2 {
