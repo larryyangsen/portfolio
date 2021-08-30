@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .skill {
+        @apply mx-4 list-disc border-t-2 border-gray-200 py-2 text-gray-800;
+    }
+
+    .skill h2 {
+        @apply font-bold text-2xl;
+    }
+
+    .skill li {
+        @apply m-1;
+    }
+
+    .skill li ul {
+        @apply list-circle mx-2;
+    }
+
+}
