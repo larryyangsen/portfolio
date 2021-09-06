@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Frontend = () => (
-    <ul className="skill">
+    <ul className="skill dark:text-white">
         <h2>前端技能</h2>
         <li>React. 相關套件 React-Router, Redux, React-Query 等皆熟悉</li>
         <li>熟悉 Ant Design , Bootstrap 等 UI 套件</li>
@@ -21,7 +21,7 @@ const Frontend = () => (
 );
 
 const BackEnd = () => (
-    <ul className="skill">
+    <ul className="skill dark:text-white">
         <h2>後端技能</h2>
         <li>Node.js/Express 搭配 MongoDB , Elasticsearch 開發 API</li>
         <li>Golang 網站爬蟲, Gin 框架開發 api</li>
@@ -31,7 +31,7 @@ const BackEnd = () => (
 );
 
 const Other = () => (
-    <ul className="skill">
+    <ul className="skill dark:text-white">
         <h2>其他</h2>
         <li>熟悉 Git 版控 , Gitlab , GitHub </li>
         <li>Drone.io CI/CD </li>
