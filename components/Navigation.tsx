@@ -5,18 +5,20 @@ const Navigation = () => (
     <nav className="sticky top-0 z-10 py-2 bg-white md:py-6 md:mb-6 dark:bg-black">
         <div className="container px-4 mx-auto lg:max-w-7xl flex items-center justify-between">
             <Link href="/">
-                <a className="font-medium tracking-wider transition-colors text-gray-900 hover:text-gray-500 uppercase dark:text-white">
-                    Larry Yang
-                </a>
+                <a>Larry Yang</a>
             </Link>
-            <div className="flex items-center">
-                <Link href="/resume">
-                    <a className="font-medium tracking-wider transition-colors text-gray-900 hover:text-gray-500 uppercase dark:text-white">
-                        個人履歷
-                    </a>
+            <div className="flex items-center ml-16 mr-auto space-x-8">
+                <Link href="/skill">
+                    <a>技能</a>
                 </Link>
-                <ThemeSwitch />
+                <Link href="/experience">
+                    <a>經歷</a>
+                </Link>
+                <Link href="/resume.pdf">
+                    <a>個人履歷</a>
+                </Link>
             </div>
+            <ThemeSwitch />
         </div>
     </nav>
 );

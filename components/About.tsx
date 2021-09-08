@@ -3,7 +3,7 @@ import profile from '../public/profile.png';
 
 const About = () => {
     return (
-        <div className="container px-4 mx-auto">
+        <section className="container px-4 mx-auto">
             <div className="lg:space-x-5 p-4 grid grid-cols-3 gap-4">
                 <div className="p-4 col-span-2 text-gray-900 dark:text-white">
                     <div className="text-lg">雲林,台灣</div>
@@ -32,7 +32,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

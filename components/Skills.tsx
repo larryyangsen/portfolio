@@ -43,11 +43,11 @@ const Skills = () => {
     return (
         <>
             <h1 className="text-4xl mb-4 px-2">技能</h1>
-            <div className="flex md:flex-row flex-col">
+            <section className="flex md:flex-row flex-col">
                 <Frontend />
                 <BackEnd />
                 <Other />
-            </div>
+            </section>
         </>
     );
 };

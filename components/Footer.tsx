@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="ml-auto space-x-2">
                         <a
                             href="https://www.linkedin.com/in/larryyangsen/"
-                            className="transition-colors hover:text-yellow-500"
+                            className="transition-opacity "
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -16,7 +16,7 @@ const Footer = () => {
                         </a>
                         <a
                             href="https://github.com/larryyangsen"
-                            className="transition-colors hover:text-yellow-500"
+                            className="transition-opacity "
                             target="_blank"
                             rel="noreferrer"
                         >
