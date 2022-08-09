@@ -6,8 +6,8 @@ const Home: NextPage = () => {
     return (
         <div className="container mx-auto">
             <Head>
-                <title>Home</title>
-                <link rel="icon" href="/favicon.ico" />
+                <title>Larry Yang</title>
+                <link rel="shortcut icon" href="/resume.png" />
             </Head>
             <main className="max-w-7xl mx-auto mt-16 antialiased">
                 <About />
