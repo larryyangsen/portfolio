@@ -34,7 +34,7 @@ const Other = () => (
     <ul className="skill dark:text-white">
         <h2>其他</h2>
         <li>熟悉 Git 版控 , Gitlab , GitHub </li>
-        <li>Drone.io CI/CD </li>
+        <li>Drone.io, Gitlab CI/CD </li>
         <li>熟悉 Manjaro Linux , Ubuntu , MacOS 系統</li>
     </ul>
 );
