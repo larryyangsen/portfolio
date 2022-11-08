@@ -14,9 +14,6 @@ const Navigation = () => (
                 <Link href="/experience">
                     <a>經歷</a>
                 </Link>
-                <Link href="https://bit.ly/larryyangsen">
-                    <a target="_blank">個人履歷</a>
-                </Link>
             </div>
             <ThemeSwitch />
         </div>
